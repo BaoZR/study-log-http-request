@@ -1,3 +1,80 @@
+######################################################################
+# 1. Build Tools
+
+### gradle ###
+.gradle
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+### maven ####
+.mvn
+mvnw
+mvnw.cmd
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+######################################################################
+# 2. IDE
+
+### STS ############
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+
+
+### JRebel ##########
+rebel.xml
+
+### NetBeans ########
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+### VS Code #########
+.vscode/
+
+### Hbuilder ########
+.hbuilderx
+
+######################################################################
+# 3. Others
+
+### log #############
+logs/
+*.log
+*.log.*.gz
+*.log.*.tmp
+
+### node_modules ####
+/mcsx-admin/node_modules/
+/mcsx-app/node_modules/
+
+### others ##########
+*.xml.versionsBackup
+*.swp
+HELP.md
+
+#### my ####
+.idea/
+/*/target/
+*.iml
+*.ipr
+*.iws
+
+# Project exclude paths
+/target/
+/.idea/
+
 # Compiled class file
 *.class
 
